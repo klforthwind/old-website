@@ -1,0 +1,206 @@
+==================================================================
+https://keybase.io/klforthwind
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://klforthwind.com
+  * I am klforthwind (https://keybase.io/klforthwind) on keybase.
+  * I have a public key with fingerprint 4630 86A7 9AD0 28FA 6A35  5645 9066 226E 0690 6E49
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ee611fcff3db8cfc4df1bd2a8b7b4aacae7dd14136865a11d7343504af220a4f0a",
+      "fingerprint": "463086a79ad028fa6a3556459066226e06906e49",
+      "host": "keybase.io",
+      "key_id": "9066226e06906e49",
+      "kid": "0101ee611fcff3db8cfc4df1bd2a8b7b4aacae7dd14136865a11d7343504af220a4f0a",
+      "uid": "a462dd41f69402115ff02027cbf54519",
+      "username": "klforthwind"
+    },
+    "service": {
+      "hostname": "klforthwind.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1549941533,
+  "expire_in": 157680000,
+  "prev": "a5115af3bc32eb20e4cad9750b5005e6a0ddd04336ae17808214e7a90dc24474",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMIsAnicrVJbbAxRGN4qpVuN1gMioTW0kaa258ycmdnZIoq09MGl+ljZnJlzZndY
+O2t2dquqiQpFm6Ikoi0NkRBNi42oqAeXIJES10YjJGzEJS4JjYjQ5UzDE4/Oy7n8
+3/f93/fnXM9Od7nT7ux+/2BuctbNtIGrR2KuGrV0Rj2nmqSO89Vz6+noRkOERm3/
+eoNwPg5AACmVINQ1XReI6tV0DREdqoTHXlVWEcYapjIhEEFB8koihpDIAhJEgLDO
+8wAjHWCumNONcIBaEcsI20wWSQLwSlhWMAG8V8cSFkRRQqICJInnJQokdqJIYcSg
+GXUYzJyKo9RjmOyNXfyj9v6B/8++Y6NyGEk8IQjqkoIAD6Go64AHvKypuohE6PSN
+RakVxhuo4zWkm5YdrDXChGso5lghbmjUma0T5m+QRzM3MIWIZdqmZoZYMWjbkajP
+Idt1EQddS1X/bx2/yihsmowRp1bUMMOcDzKkZhuOMBSRoiAoCkIxRzdFDIv6DQch
+ypIXsOX0oXEnk8hyYF1QNYGnKg8o0jBRZBGoIgAilTAghAAkCBKmUPYCLw8RlbEC
+iMYjJCPOSbYxbHI+xGziAJOMGoEwtmMW5RquXakZ60pzuzLGjXF+mcudmfPn7x3u
+Hp9aaGxre3bO6pz8OVB1ek7e29bsil7P/HBP36rNm0du5CxIKNMbx8KMHwg0XVn5
++eVL95IvI21n+19Na+zIn7enq3zXVre98/7x4dqlA3nVky6tza9QW5/Oy3K796XO
+TKwfHHzYfXKY62nYXfKGqz59Kjd7H/gYzHriOTG8+FCqo+VAcsnXgTf9zz8cm5G4
+11/YvGJq6sW3wqqyNd+G/NsetX8a3LL2/fnliyaDvpaChYnkj+6S/Nurvq8Zmth7
+Qrz0rnJd3oTcqWVdNPH4eXm0q+nyUOnMZMWUzsqZ++PtmUV7Y8v42UeL7nYWnPf4
+5E8tB0ubO29t+fk6vfzdjtUXRy6E+rZn1v0C8flFmw==
+=v5sZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/klforthwind
+
+==================================================================
+
+==================================================================
+https://keybase.io/klforthwind
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://klforthwind.net
+  * I am klforthwind (https://keybase.io/klforthwind) on keybase.
+  * I have a public key with fingerprint 4630 86A7 9AD0 28FA 6A35  5645 9066 226E 0690 6E49
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ee611fcff3db8cfc4df1bd2a8b7b4aacae7dd14136865a11d7343504af220a4f0a",
+      "fingerprint": "463086a79ad028fa6a3556459066226e06906e49",
+      "host": "keybase.io",
+      "key_id": "9066226e06906e49",
+      "kid": "0101ee611fcff3db8cfc4df1bd2a8b7b4aacae7dd14136865a11d7343504af220a4f0a",
+      "uid": "a462dd41f69402115ff02027cbf54519",
+      "username": "klforthwind"
+    },
+    "service": {
+      "hostname": "klforthwind.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1549986317,
+  "expire_in": 157680000,
+  "prev": "bf5b131e29761f513e437311cfc5211cd3b7494f838631576aa4694f236cebff",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMIoAnicrZJbSBRRHMZ3U4sWBIuiC110ygoTmzNz5szspkUXKgiiyCJtYzszc846
+uc1Mu6OuSRmBthGUlQTdTKgHo4cuD10egtZEirQtER8SHwykxSR9SMl8sDNST/XY
+eTm37/ud7//ndGRneHze7vMjPes+53V63yVbqjxBdTi7jlMtvZYL1HGVZGYiEZ3E
+nFCloXMBjgc8IAQBQDVKRV1VNKpBnQJVF7CiyirEWMNE1nUAgYgUJGEAdFmEosRD
+TAWBx5DymCvkqGGGSdSOGqbDsBCJvIKw7Mc6LygUIyxKEoKSn0dIEBDhEVsR6GfG
+CivmOlg4FcdIkWGxM7YJzcT7h/4/566awWGIBF2HgCI/5AUAJEp5gRdkTaUSlID7
+blWMRE18nLhZI9SKOhU1hqlzpwo5dlFtaMTtrVvM36IikziMYEctx9KsCLuscBw7
+FnDNTq3tqmuIGvrNCanMwrrJHNUkGjMskwsAptQcwwUDCfr9ChKBXMiRuG1ESchw
+FZKMFJ4N9x1SzZAsugpEQAS/jACVgEigKIsAsE5JrERNF1UZ+iFVRJfG7Jh1ge0F
+EWlEpZRzKzthWowNWE4cZsyYETaxUxUl3Kn2V8FMj9fnmZ01y/1mHt/cnD+f74c9
+Z/rAFv0NaJzOCVV/uF3/ffnF1Piek5PyUSjWj588ctZT5G3UmvLunrneVtY1UJFe
+HO/rLzv0YbD3Y+HZJ8OByfCIFTpW0p3w3VpQuXHVhcajY+mJ+OP84J3S5xi0bk0M
+t9y2k0LO3iHxWfng5RtHGnqmMk6Xvtl0PX24L/DpbfHC/MyhK4t6b3YdbEv5Hl3K
+yk49be5dvCDxYt/GHWv35XYka5vbO+efaxhLlT1edqA4c3v8a5q79nIguXOeFLza
+0v9gd8e5998iu37q5tqFncEvE03rl+ROrTg99XBDQdvrnuLNrTvW7F8yb/TevZi9
+bfV9ramrINFaurSkJlmyMjVaXrCf+wXEP0Wb
+=+BNs
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/klforthwind
+
+==================================================================
+==================================================================
+https://keybase.io/klforthwind
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://klforthwind.org
+  * I am klforthwind (https://keybase.io/klforthwind) on keybase.
+  * I have a public key with fingerprint 4630 86A7 9AD0 28FA 6A35  5645 9066 226E 0690 6E49
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ee611fcff3db8cfc4df1bd2a8b7b4aacae7dd14136865a11d7343504af220a4f0a",
+      "fingerprint": "463086a79ad028fa6a3556459066226e06906e49",
+      "host": "keybase.io",
+      "key_id": "9066226e06906e49",
+      "kid": "0101ee611fcff3db8cfc4df1bd2a8b7b4aacae7dd14136865a11d7343504af220a4f0a",
+      "uid": "a462dd41f69402115ff02027cbf54519",
+      "username": "klforthwind"
+    },
+    "service": {
+      "hostname": "klforthwind.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1549986425,
+  "expire_in": 157680000,
+  "prev": "1cfae356b1c5e75df275b6581d4fb7773f95670cf5f32620bb0b2729754c8391",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMI3AnicrZJfaBxFHMfvkjZtjwSThvZBMCYbhV5Mws7szOzuGcmDfxpBbBCkiIFz
+Zmfmbs319rK3dzWNacT8QTGoDyGCUKuW0tKWBJK2UoqQpqG0lBIMxkQsFYvExoQ+
+9SHW9M9sqE/2sfMyf37f72e+M/xmKkojsei1T1fndt2suxS9euGbQqSD/d3dozGP
+d2uJHq1TbEwiw0U+SHa6XEtoOtCBEAQA6UhpcGY50kFcAsYhtZjJEKUOFSbnAAGD
+WARTALhpIAPriEoIdYqkTrVGTbrZlPBzvpsNFBYRQ7cINW3KdWhJSqiBMUHY1gmB
+kAidqJVAtjKmvXzoUOEYzYtm11NnapPciPcY/RPOXdjAUUQg5whIYiMdAoCl1KEO
+TYdJjDAI7y3khZ+l+0SYNSM9P0jvd7Nc623UVKHoOiL82/Ax/xc1e35KEXK+F3iO
+l1HFdBDk8onQHHTnQvV+wZKPOEmmLOo3laMo/LzrZbUEUEoncEMwwMi2LYIgbtTE
+BznXF0k3VGCTWLoa4T2iqJDAkVQYmDDgYGFiLqGJGcEW4Egy0zQNaWNi6o7E0oAE
+6ozpDJrQNjFyLMMGWviyrqyn2FDlpCnFzLupLA0KvtB6p6c6NkWisUjZ5pKwzSKx
+bZX/Nd/Opa2RgfXK1YPej2d4Y9nY8tED9emBWPVrD4Zeit95ZuK3Z2/sPUvTWsfc
+Fw/+SBuHCuUD7Wvvv7hQ89axL19uqJ/56int2+uJodMDfSOxdHnVD4ec4bL3lm73
+1y/dX9n+ztqbq59XvnD2l7XJiivO1v7hKD+32P5u6et7+t9oZc9NTv2ZaXm7+veG
+p49P/DQ/ujKy+3zb4R0lJyqf31I7e2T54z3ft9fVvLLvk3+++7kp11RTXN+846/Y
+0Onej8bnW24Vy3bX3h3sq4jKibYz87PNI1WnPrt48sTY8Hj5UCddGskdS324aWH0
+5GDN8nT71wcPVF24VdLVGr/ccnjROfLq2q89VvxfCFsz9+LTDwGYgED7
+=OfzB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/klforthwind
+
+==================================================================
+
