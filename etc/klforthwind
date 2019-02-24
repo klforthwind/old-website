@@ -1,0 +1,15 @@
+server {
+
+listen   80;
+server_name  www.klforthwind.com www.klforthwind.net www.klforthwind.org;
+
+access_log /home/clients/klforthwind/logs/access.log;
+error_log /home/clients/klforthwind/logs/error.log;
+
+location / {
+
+root   /home/clients/klforthwind/www/;
+index  index.html;
+}
+
+}

@@ -1,0 +1,2 @@
+2019/02/24 08:10:13 [error] 3433#3433: *1 open() "/home/clients/klforthwind/www/favicon.ico" failed (2: No such file or directory), client: 66.41.222.144, server: www.klforthwind.com, request: "GET /favicon.ico HTTP/1.1", host: "klforthwind.com", referrer: "http://klforthwind.com/"
+2019/02/24 08:10:26 [error] 3433#3433: *5 open() "/home/clients/klforthwind/www/favicon.ico" failed (2: No such file or directory), client: 66.41.222.144, server: www.klforthwind.com, request: "GET /favicon.ico HTTP/1.1", host: "klforthwind.org", referrer: "http://klforthwind.org/"
