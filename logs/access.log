@@ -139,3 +139,4 @@
 66.41.222.144 - - [24/Feb/2019:08:10:26 +0000] "GET /favicon.ico HTTP/1.1" 404 209 "http://klforthwind.org/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36"
 35.186.161.55 - - [24/Feb/2019:08:18:52 +0000] "GET /dnscfg.cgi?dnsPrimary=144.22.104.185&dnsSecondary=8.8.8.8&dnsDynamic=0&dnsRefresh=1 HTTP/1.1" 404 178 "-" "curl/7.52.1"
 35.186.161.55 - brute [24/Feb/2019:08:18:52 +0000] "GET / HTTP/1.1" 200 71 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:54.0) Gecko/20100101 Firefox/54.0"
+66.41.222.144 - - [24/Feb/2019:08:24:03 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36"
