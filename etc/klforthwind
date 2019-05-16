@@ -2,22 +2,27 @@
 
 server {
 
+	listen 443 ssl;
 
-listen 443 ssl;
+	ssl_certificate /etc/letsencrypt/live/www.klforthwind.com/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/www.klforthwind.com/privkey.pem; # managed by Certbot
 
-ssl_certificate /etc/letsencrypt/live/www.klforthwind.com/fullchain.pem; # managed by Certbot
-ssl_certificate_key /etc/letsencrypt/live/www.klforthwind.com/privkey.pem; # managed by Certbot
+	server_name  www.klforthwind.com www.klforthwind.net www.klforthwind.org;
 
-server_name  www.klforthwind.com www.klforthwind.net www.klforthwind.org;
+	access_log /home/clients/klforthwind/logs/access.log;
+	error_log /home/clients/klforthwind/logs/error.log;
 
-access_log /home/clients/klforthwind/logs/access.log;
-error_log /home/clients/klforthwind/logs/error.log;
+	location / {
+		root   /home/clients/klforthwind/www/;
+		index  index.html;
+	}
 
-location / {
-
-root   /home/clients/klforthwind/www/;
-index  index.html;
-}
+	location ~* \.(jpg|jpeg|png|gif|ico|css|js)$ {
+		expires 1M;
+		access_log off;
+		add_header Cache-Control "public";
+		root /home/clients/klforthwind/www/;
+	}
 
 }
 
