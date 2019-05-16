@@ -19,8 +19,11 @@ body {
     vertical-align: middle;
 }
 
-a {
+h1, a {
     color: #8AD1FD;
     text-decoration: none;
+}
+
+a {
     font-size:24px;
 }
