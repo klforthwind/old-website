@@ -6,20 +6,26 @@ body, html {
 }
 
 body {
-    color: #8AD1FD;
-    text-decoration: none;
+    color: #FFF;
     background: #484848;
     font-family: monospace;
-	display: table;
-	font-size: 24px;
+    display: table;
 }
 
 #container {
     display: table-cell;
     background: #333333;
     text-align: center;
-	vertical-align: middle;
-	max-width: 600px;
+    vertical-align: middle;
+}
+
+h1, a {
+    color: #8AD1FD;
+    text-decoration: none;
+}
+
+a {
+    font-size:24px;
 }
 
 #links {
