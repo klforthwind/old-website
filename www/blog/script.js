@@ -1,5 +1,4 @@
 function loadPost() {
-    var page='<?php echo $_GET["page"]; ?>';
     console.log(page);
     if (page==undefined) {
         page = "";
@@ -11,10 +10,10 @@ function loadPost() {
     request.open('GET', restAPI, true);
     request.onload = function () {
         var data = this.response;
+        console.log(data);
         if (request.status >= 200 && request.status < 400) {
-            const p = document.createElement('p');
-            p.textContent = data;
-            app.appendChild(p);
+            const root = document.getElementById('root');
+            root.value = data;
         }
     }
 

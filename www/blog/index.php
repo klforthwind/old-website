@@ -22,6 +22,7 @@
 			<h2>Uhhh... I tried.</h2>
 			<!--Place to add blog articles below here-->
 			<div id="root"></div>
+			<script defer>var page='<?php echo $_GET["page"]; ?>';</script>
 			<script defer src="script.js"></script>
 		</section>
 		<input type="hidden" name="page" id="page">
