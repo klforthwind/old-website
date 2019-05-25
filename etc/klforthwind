@@ -1,5 +1,6 @@
 #certbot --nginx -d klforthwind.com -d klforthwind.org -d klforthwind.net
 
+
 server {
 
 	listen 443 ssl;
@@ -11,10 +12,12 @@ server {
 
 	access_log /home/clients/klforthwind/logs/access.log;
 	error_log /home/clients/klforthwind/logs/error.log;
-	
+
 	location / {
 		root   /home/clients/klforthwind/www/;
 		index  index.html;
+
+		error_page 405 = $uri;
 	}
 
 	location ~* \.(jpg|jpeg|png|gif|ico|css|js)$ {
@@ -22,6 +25,12 @@ server {
 		access_log off;
 		add_header Cache-Control "public";
 		root /home/clients/klforthwind/www/;
+	}
+
+	location ~ \.php$ {
+		root   /home/clients/klforthwind/www/;
+    	include snippets/fastcgi-php.conf;
+    	fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
 	}
 }
 
