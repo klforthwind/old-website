@@ -1,4 +1,5 @@
 function loadPost(name) {
+    var jss='<?php echo $_GET["name"]; ?>';console.log(jss);
     if (name==undefined) {
         name = "";
     }
