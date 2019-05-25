@@ -1,4 +1,4 @@
-#certbot --nginx -d klforthwind.com -d klforthwind.org -d klforthwind.net
+#certbot --nginx -d klforthwind.com -d klforthwind.org -d klforthwind.net -d forthwind.dev
 
 
 server {
@@ -8,7 +8,7 @@ server {
 	ssl_certificate /etc/letsencrypt/live/www.klforthwind.com/fullchain.pem; # managed by Certbot
 	ssl_certificate_key /etc/letsencrypt/live/www.klforthwind.com/privkey.pem; # managed by Certbot
 
-	server_name  www.klforthwind.com www.klforthwind.net www.klforthwind.org;
+	server_name  www.forthwind.dev www.klforthwind.com www.klforthwind.net www.klforthwind.org;
 
 	access_log /home/clients/klforthwind/logs/access.log;
 	error_log /home/clients/klforthwind/logs/error.log;
@@ -36,7 +36,7 @@ server {
 
 server {
     listen 443;
-    server_name klforthwind.com klforthwind.net klforthwind.org;
+    server_name forthwind.dev klforthwind.com klforthwind.net klforthwind.org;
 	add_header Cache-Control "public";
 	return 301 https://www.$host$request_uri;
 }
@@ -44,7 +44,7 @@ server {
 server {
 	listen 80;
 	listen [::]:80;
-	server_name klforthwind.com klforthwind.net klforthwind.org;
+	server_name forthwind.dev klforthwind.com klforthwind.net klforthwind.org;
 	add_header Cache-Control "public";
 	return 301 https://www.$host$request_uri;
 }
