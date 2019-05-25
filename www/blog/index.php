@@ -23,6 +23,7 @@
 			<!--Place to add blog articles below here-->
 			<div id="root"></div>
 			<script defer src="script.js"></script>
-        </section>
+		</section>
+		<input type="hidden" name="page" id="page">
 	</body>
 </html>
