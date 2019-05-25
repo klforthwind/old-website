@@ -12,7 +12,7 @@ function loadPost() {
         var data = this.response;
         if (request.status >= 200 && request.status < 400) {
             const p = document.createElement('p');
-            p.textContent = data;
+            p.textContent = data.substring(1, data.length-2);
             app.appendChild(p);
         }
     }
