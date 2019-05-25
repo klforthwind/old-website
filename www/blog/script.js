@@ -10,10 +10,10 @@ function loadPost() {
     request.open('GET', restAPI, true);
     request.onload = function () {
         var data = this.response;
-        console.log(data);
         if (request.status >= 200 && request.status < 400) {
-            const root = document.getElementById('root');
-            root.value = data;
+            const p = document.createElement('p');
+            p.textContent = data;
+            app.appendChild(p);
         }
     }
 
