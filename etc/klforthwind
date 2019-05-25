@@ -11,7 +11,7 @@ server {
 
 	access_log /home/clients/klforthwind/logs/access.log;
 	error_log /home/clients/klforthwind/logs/error.log;
-
+	
 	location / {
 		root   /home/clients/klforthwind/www/;
 		index  index.html;
@@ -23,12 +23,12 @@ server {
 		add_header Cache-Control "public";
 		root /home/clients/klforthwind/www/;
 	}
-
 }
 
 server {
     listen 443;
     server_name klforthwind.com klforthwind.net klforthwind.org;
+	add_header Cache-Control "public";
 	return 301 https://www.$host$request_uri;
 }
 
@@ -36,5 +36,6 @@ server {
 	listen 80;
 	listen [::]:80;
 	server_name klforthwind.com klforthwind.net klforthwind.org;
+	add_header Cache-Control "public";
 	return 301 https://www.$host$request_uri;
 }
