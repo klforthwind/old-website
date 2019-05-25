@@ -11,10 +11,13 @@ function loadPost() {
     request.onload = function () {
         var data = this.response;
         if (request.status >= 200 && request.status < 400) {
-            const p = document.createElement('p');
-            p.className = "floatLeft";
-            p.textContent = data.substring(1, data.length-2);
-            app.appendChild(p);
+            // const p = document.createElement('p');
+            // p.className = "floatLeft";
+            // p.textContent = data.substring(1, data.length-2);
+            // app.appendChild(p);
+
+            let r = document.getElementById('root');
+            r.innerHTML = data.substring(1, data.length-2);
         }
     }
 

@@ -34,7 +34,10 @@ h2 {
 	font-size: 18px;
 }
 
-.floatLeft {
+hr {
+    border: 0px;
+}
+
+#root {
     text-align: left;
-    float: left;
 }
