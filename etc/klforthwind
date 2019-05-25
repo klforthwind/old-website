@@ -15,7 +15,7 @@ server {
 
 	location / {
 		root   /home/clients/klforthwind/www/;
-		index  index.html;
+		index  index.html index.php;
 
 		error_page 405 = $uri;
 	}
