@@ -18,3 +18,5 @@ function loadPost(name) {
 
     request.send();
 }
+
+loadPost();
