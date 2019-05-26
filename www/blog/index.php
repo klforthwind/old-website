@@ -17,7 +17,7 @@
 	</head>
 	<body>
 		<section id="container">
-			<img src="../400x400Forthwind.jpg" alt="Forthwind / klforthwind" height="128px" width="128px">
+			<a href="/blog/"><img src="../400x400Forthwind.jpg" alt="Forthwind / klforthwind" height="128px" width="128px"></a>
 			<h1>klforthwind's blog</h1>
 			<h2>Uhhh... I tried.</h2>
 			<br>
