@@ -1,22 +1,22 @@
-function loadPost() {
-    console.log(page);
-    if (page==undefined) {
-        page = "";
-    }
-    const app = document.getElementById('root');
 
-    var request = new XMLHttpRequest();
-    var restAPI = 'https://www.klforthwind.com:4242/blog/' + page;
-    request.open('GET', restAPI, true);
-    request.onload = function () {
-        var data = this.response;
-        if (request.status >= 200 && request.status < 400) {
-            let r = document.getElementById('root');
-            r.innerHTML = data.substring(1, data.length-2);
-        }
-    }
+// Get page data
+console.log(page);
+page = (page ? page : "");
 
-    request.send();
+// Get element that data will be put in
+let r = document.getElementById('root');
+
+// Make an HTTP Request for data
+let xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://www.klforthwind.com:4242/blog/' + page, true);
+
+// Handle data properly
+xhr.onload = function () {
+    let data = this.response;
+    if (xhr.status >= 200 && xhr.status < 400) {
+        r.innerHTML = data.substring(1, data.length-2);
+    }
 }
 
-loadPost();
+// Send HTTP Request
+xhr.send();
