@@ -1,6 +1,5 @@
 
 // Get page data
-console.log(page);
 page = (page ? page : "");
 
 // Get element that data will be put in
@@ -21,8 +20,14 @@ xhr.onload = function () {
         data = data.replace(/<br><br>/g, "<br>");
         data = data.replace(/<\/h1><br><h2>/g, "</h1><h2>");
         data = data.replace(/\\\"/g, "\"");
-        console.log(data);
         r.innerHTML = data;
+        
+        let pic = document.getElementById("picture");
+        if(page) {
+            pic.style.display='none';
+        } else {
+            pic.style.display='block';
+        }
     }
 }
 

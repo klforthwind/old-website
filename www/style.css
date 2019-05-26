@@ -3,12 +3,12 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+    background: #353535;
 }
 
 body, h1, a {
     color: #8AD1FD;
     text-decoration: none;
-    background: #333333;
     font-family: monospace;
 	font-size: 24px;
 }
@@ -29,9 +29,10 @@ a:hover {
 #rc {
     background: #333333;
     text-align: center;
-	padding: 60px 40px 20px 40px;
+	padding: 150px 50px 20px 50px;
 	margin: 0 auto 0 auto;
-	max-width: 600px;
+    max-width: 600px;
+    height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -79,4 +80,9 @@ aside {
     aside {
         display: none;
     }
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0px;
 }
