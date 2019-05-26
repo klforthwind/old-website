@@ -50,3 +50,9 @@ aside {
     position: relative;
     float: right;
 }
+
+@media only screen and (max-width: 600px) {
+    aside {
+        display: none;
+    }
+}
