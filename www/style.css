@@ -7,16 +7,23 @@ body, html {
 
 body {
     color: #FFF;
-    background: #484848;
+    background: #444444;
     font-family: monospace;
-    display: table;
 }
 
 #container {
-    display: table-cell;
     background: #333333;
+    margin: auto;
+    padding: 240px 20px 0 20px;
     text-align: center;
-    vertical-align: middle;
+    max-width: 600px;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #container{
+        padding: 40px;
+    }
 }
 
 h1, a {
