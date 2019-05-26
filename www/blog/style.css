@@ -5,12 +5,16 @@ body, html {
     padding: 0;
 }
 
-body {
+body, a {
     color: #8AD1FD;
     text-decoration: none;
     background: #333333;
     font-family: monospace;
 	font-size: 24px;
+}
+
+a:hover {
+    color: #cccccc;
 }
 
 #container {
