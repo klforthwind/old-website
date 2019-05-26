@@ -16,8 +16,13 @@ xhr.onload = function () {
         // Make sure we successfully received data
         let rawData = this.response;
         let data = rawData.substring(1, rawData.length-2);
-        let br = data.replace(/\\n\b/g, "<br>");
-        r.innerHTML = br;
+        // Special Data Manipulations
+        data = data.replace(/\\n\b/g, "<br>");
+        data = data.replace(/<br><br>/g, "<br>");
+        data = data.replace(/<\/h1><br><h2>/g, "</h1><h2>");
+        data = data.replace(/\\\"/g, "\"");
+        console.log(data);
+        r.innerHTML = data;
     }
 }
 
