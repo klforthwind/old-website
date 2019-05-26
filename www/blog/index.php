@@ -20,7 +20,6 @@
 			<a href="/blog/"><img src="../400x400Forthwind.jpg" alt="Forthwind / klforthwind" height="128px" width="128px"></a>
 			<h1>klforthwind's blog</h1>
 			<h2>Uhhh... I tried.</h2>
-			<br>
 			<!--Place to add blog articles below here-->
 			<div id="root"></div>
 			<script defer>var page='<?php echo $_GET["page"]; ?>';</script>
