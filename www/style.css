@@ -8,31 +8,29 @@ body, html {
 
 body, h1, a {
     color: #8AD1FD;
-    text-decoration: none;
     font-family: monospace;
-	font-size: 24px;
 }
 
 a:hover {
     color: #cccccc;
 }
 
-#container {
+section {
     background: #333333;
     margin: auto;
-    padding: 240px 20px 0 20px;
     text-align: center;
     max-width: 600px;
     height: 100%;
 }
 
+
+#container {
+    padding: 240px 20px 0 20px;
+}
+
 #rc {
-    background: #333333;
-    text-align: center;
 	padding: 150px 50px 20px 50px;
 	margin: 0 auto 0 auto;
-    max-width: 600px;
-    height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -41,26 +39,29 @@ a:hover {
     }
 }
 
-h1, a {
-    color: #8AD1FD;
+a {
+    font-size: 21px;
     text-decoration: none;
 }
 
-a {
-    font-size:24px;
+ul a {
+    font-weight: bold;
 }
 
 #links {
     margin-top: 30px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
 
 h1 {
-	font-size: 24px;
+	font-size: 26px;
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 hr {
@@ -74,6 +75,8 @@ hr {
 aside {
     position: relative;
     float: right;
+    font-size: 19px;
+    color: rgb(82, 143, 180);
 }
 
 @media only screen and (max-width: 600px) {
@@ -84,5 +87,6 @@ aside {
 
 ul {
     list-style-position: inside;
-    padding: 0px;
+    padding: 20px;
+    border: 2px dotted black;
 }
