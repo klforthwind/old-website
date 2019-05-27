@@ -59,6 +59,15 @@ aside {
     aside {
         display: none;
     }
+
+    #root, p {
+        line-height: 1.4;
+        font-size: 15px;
+    }
+
+    li {
+        text-align: left;
+    }
 }
 
 ul {
