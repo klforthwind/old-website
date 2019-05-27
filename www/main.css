@@ -8,7 +8,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: #353535;
+    background: #252525;
 }
 
 body, h1, a {
@@ -20,7 +20,7 @@ a:hover {
 }
 
 section {
-    background: #333333;
+    background: #222;
     margin: auto;
     text-align: center;
     max-width: 600px;
