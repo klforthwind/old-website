@@ -22,7 +22,7 @@ h2 {
 }
 
 #rc {
-	padding: 0px 50px 20px 50px;
+	padding: 0px 60px 20px 60px;
 	margin: 0 auto 0 auto;
 }
 
@@ -52,7 +52,7 @@ hr {
 aside {
     position: relative;
     float: right;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -63,7 +63,7 @@ aside {
 
 ul {
     list-style-position: inside;
-    padding: 20px;
+    padding: 25px;
     border: 2px dotted #444444;
 }
 
