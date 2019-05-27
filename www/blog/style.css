@@ -22,7 +22,7 @@ h2 {
 }
 
 #rc {
-	padding: 0px 60px 20px 60px;
+	padding-bottom: 20px;
 	margin: 0 auto 0 auto;
 }
 
@@ -45,7 +45,7 @@ hr {
 #root, p {
     text-align: left;
     line-height: 1.7;
-    font-size: 19px;
+    font-size: 17px;
     text-align: justify;
 }
 
