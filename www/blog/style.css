@@ -1,11 +1,11 @@
 body, h1, a, ul {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #FFF;
+    color: rgb(82, 143, 180);
 }
 
 h2, aside {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #BBB;
+    color: rgb(82, 143, 180);
 }
 
 h1 {
@@ -16,8 +16,9 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
+    font-weight: 200;
 }
 
 #rc {
@@ -26,11 +27,15 @@ h2 {
 }
 
 ul:hover {
-    color: rgb(82, 143, 180);;
+    color: rgb(82, 143, 180);
 }
 
 a ul {
     font-weight: bold;
+}
+
+ul:hover {
+    color: #cccccc;
 }
 
 hr {
@@ -40,7 +45,7 @@ hr {
 #root, p {
     text-align: left;
     line-height: 1.8;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 aside {
