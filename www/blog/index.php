@@ -5,7 +5,8 @@
 		<meta charset="utf-8">
 
         <title>Forthwind</title>
-        <link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="../main.css" />
+		<link rel="stylesheet" href="style.css" />
 		<link rel="shortcut icon" href="../24x24Forthwind.jpg"/> 
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />

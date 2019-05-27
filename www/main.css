@@ -1,0 +1,33 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #353535;
+}
+
+body, h1, a {
+    font-family: monospace;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
+section {
+    background: #333333;
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+    height: 100%;
+}
+
+a {
+    font-size: 21px;
+    text-decoration: none;
+}

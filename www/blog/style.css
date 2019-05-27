@@ -1,0 +1,66 @@
+body, h1, a, ul {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFF;
+}
+
+h2, aside {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #BBB;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 1.4em;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+#rc {
+	padding: 0px 50px 20px 50px;
+	margin: 0 auto 0 auto;
+}
+
+ul:hover {
+    color: rgb(82, 143, 180);;
+}
+
+a ul {
+    font-weight: bold;
+}
+
+hr {
+    border: 0px;
+}
+
+#root, p {
+    text-align: left;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+aside {
+    position: relative;
+    float: right;
+    font-size: 19px;
+}
+
+@media only screen and (max-width: 600px) {
+    aside {
+        display: none;
+    }
+}
+
+ul {
+    list-style-position: inside;
+    padding: 20px;
+    border: 2px dotted black;
+}
+
+#picture {
+    padding-top: 150px;
+}

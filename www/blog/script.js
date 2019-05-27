@@ -17,7 +17,7 @@ xhr.onload = function () {
         let data = rawData.substring(1, rawData.length-2);
         // Special Data Manipulations
         data = data.replace(/\\n\b/g, "<br>");
-        data = data.replace(/<br><br>/g, "<br>");
+        data = data.replace(/<br><br>/g, "");
         data = data.replace(/<\/h1><br><h2>/g, "</h1><h2>");
         data = data.replace(/\\\"/g, "\"");
         r.innerHTML = data;
