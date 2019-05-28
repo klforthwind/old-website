@@ -26,15 +26,11 @@ h2 {
 	margin: 0 auto 0 auto;
 }
 
-ul:hover {
-    color: rgb(82, 143, 180);
-}
-
 a ul {
     font-weight: bold;
 }
 
-ul:hover {
+#clickable:hover {
     color: #cccccc;
 }
 
@@ -70,7 +66,7 @@ aside {
     }
 }
 
-ul {
+#clickable {
     list-style-position: inside;
     padding: 25px;
     border: 2px dotted #444444;
