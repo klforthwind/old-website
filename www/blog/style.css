@@ -70,6 +70,7 @@ aside {
     list-style-position: inside;
     padding: 25px;
     border: 2px dotted #444444;
+    text-align: left;
 }
 
 #picture {
