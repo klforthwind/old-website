@@ -21,6 +21,7 @@ xhr.onload = function () {
         data = data.replace(/<\/h1><br><h2>/g, "</h1><h2>");
         data = data.replace(/\bsh\\n/g, "");
         data = data.replace(/\\\"/g, "\"");
+        data = data.replace(/\\\\/g, "\\");
         r.innerHTML = data;
         
         let pic = document.getElementById("picture");
