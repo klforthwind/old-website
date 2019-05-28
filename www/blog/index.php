@@ -26,6 +26,10 @@
 			</div>
 			<!--Place to add blog articles below here-->
 			<div id="root"></div>
+			<div id = "info">
+				<p style="width: 100px; margin: 0 auto; background: #333; padding: 10px 10px 0 10px"><a href = "mailto:klforthwind@gmail.com"><img width=40px height=40px src = "gmail-logo.svg"></a>
+				<a style="float:right" href="https://www.github.com/klforthwind"><img  width=40px height=40px src = "github.png"></a></p>
+			</div>
 			<script defer>var page='<?php echo $_GET["page"]; ?>';</script>
 			<script defer src="script.js"></script>
 		</section>
