@@ -23,6 +23,7 @@ xhr.onload = function () {
         data = data.replace(/\\\"/g, "\"");
         data = data.replace(/\\\\/g, "\\");
         data = data.replace(/<ul><br><li>/g, "<ul><li>");
+        data = data.replace(/<\/li><br><\/ul>/g, "<\/li><\/ul>");
         data = data.replace(/<\/li><br><li>/g, "<\/li><li>");
         r.innerHTML = data;
         
